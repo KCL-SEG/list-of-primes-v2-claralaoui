@@ -10,7 +10,7 @@ def is_prime(n):
     return False
 
 def primes(number_of_primes):
-    if number_of_primes < 0:
+    if number_of_primes <= 0:
         raise ValueError(f'The value must be positive, you entered {number_of_primes}')
     list = []
     next_number = 0
